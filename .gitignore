@@ -1,0 +1,11 @@
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.swp
+*.swo
+.DS_STORE
+node_modules/
+test/

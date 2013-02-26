@@ -1,0 +1,26 @@
+{
+  "name": "pkg-builder",
+  "description": "A build service for modules that actually works",
+  "version": "0.1.0",
+  "homepage": "http://github.com/alessioalex/pkg-builder",
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com>",
+  "main": "index.js",
+  "keywords": ["module", "builder", "dependencies"],
+  "repository": {
+    "type" : "git",
+    "url"  : "https://github.com/alessioalex/pkg-builder.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "debug" : "0.7.x"
+  },
+  "devDependencies": {
+    "should" : "1.2.x",
+    "mocha"  : "1.8.x"
+  },
+  "scripts": {
+    "test"    : "node_modules/.bin/mocha -u bdd --reporter spec --slow 150 --timeout 1s --require should"
+  }
+}
